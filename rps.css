@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    text-align: center;
+    background-image: url(back.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#023047 ;
+    color:#ffb703 ;
+    padding: 5px;
+    line-height: 60px;
+}
+img{
+    border-radius: 50%;
+    border: none;
+    height: 250px;
+    width: 250px;
+}
+.options{
+margin-top: 60px;
+display: flex;
+justify-content: center;
+gap: 50px;
+
+
+}
+.option:hover{
+    border: 5px solid #219ebc;
+    cursor: pointer;
+}
+.scoreBoard{
+    font-family: cursive;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 70px;
+    color:whitesmoke;
+}
+#user-score{
+    font-size: 50px;
+    margin-top:10px;
+}
+#comp-score{
+    font-size: 50px;
+    margin-top:10px;
+}
+.msgContainer{
+
+    margin-top: 30px;
+}
+#msg{
+    color: #023047;
+    background-color: #d49c0d;
+    display: inline;
+    height: 70px;
+    font-size: 30px;
+    border: none;
+    padding: 8px;
+border-radius: 2rem;
+justify-content: center;
+
+}
+#resetBtn{
+    color:#023047;
+    background-color:#52d2f2;
+    padding: 5px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 2rem;
+}
+#endBtn{
+    color:#023047;
+    background-color:#52d2f2;
+    padding: 5px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 2rem;
+}
